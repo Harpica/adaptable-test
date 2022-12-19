@@ -49,7 +49,7 @@ const initTodo = () => {
   style="color: red;"
   href="#"
   role="button"
-  onclick="handleTodoDelete(event, '${id}')"
+  onclick="handleTodoDelete(event, '${_id}')"
 >
   <i class="far fa-lg fa-trash-alt"></i>
 </a>
